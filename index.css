@@ -1,0 +1,81 @@
+body {
+    background-color: #1F2937;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height:550px
+}
+
+#header {
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-style: "ExtraBold";
+    font-weight: 800;
+    line-height: 40px;
+    font-size: 40px;
+    margin: 115px 144px 0px 52px; 
+    width: 370px;
+    height: 80px;
+    
+
+}
+
+#pass-txt {
+    color: #10B981;
+}
+
+p {
+    color: #D5D4D8;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    margin: 10px 316px 51px 52px;
+    width: 372px;
+    height: 28px;
+}
+
+#pass-btn {
+    background-color: #10B981;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 307px 35px 52px;
+    width: 191px;
+    height: 42px;
+    text-align: center;
+}
+
+#line {
+    border-color: #2F3E53;
+    width: 446px;
+    height: 0px;
+    margin: 0px  52px 35px 52px;
+}
+
+#passwords {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.copy-btn {
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 115px;
+    color: #55F991;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-style: Medium;
+}
